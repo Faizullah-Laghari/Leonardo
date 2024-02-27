@@ -1,0 +1,24 @@
+/* styles/theme.css */
+
+:root {
+    --background-color-light: #ffffff; /* White */
+    --text-color-light: rgb(13, 12, 34); /* Black */
+    --background-color-dark: #121212; /* Dark Grey */
+    --text-color-dark: #ffffff; /* White */
+  }
+  
+  [data-theme="light"] {
+    --background-color: var(--background-color-light);
+    --text-color: var(--text-color-light);
+  }
+  
+  [data-theme="dark"] {
+    --background-color: var(--background-color-dark);
+    --text-color: var(--text-color-dark);
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  

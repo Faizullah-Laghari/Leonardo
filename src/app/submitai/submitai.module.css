@@ -1,0 +1,50 @@
+.submit_container,.prompt_container{
+    background-color: white;
+    width: 60%;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,82,.15);
+} 
+
+.prompt_container{
+padding: 10px;
+} 
+
+.submit_container input{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    border: none!important;
+}
+
+.submit_container input:focus-visible,
+.submit_container input:active {
+    outline: none!important; 
+    border: none!important;
+}
+
+
+.submit_btn{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding:0px 20px;
+    padding-top: 5px;
+    margin-right: 10px!important;
+    cursor: pointer;
+} 
+
+.submit_container {
+    display: flex;
+    align-items: center;
+}
+
+.submitai{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 460px;
+}

@@ -1,0 +1,27 @@
+.price_table{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 96%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #efefef;
+    height: 300px;
+}
+
+.price_table:hover{
+    border: 1px solid #635bff;
+    cursor: pointer;    
+}
+
+.price_title{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

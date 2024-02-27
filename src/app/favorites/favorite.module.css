@@ -1,0 +1,15 @@
+.favorite_posts{
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin:130px auto;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.favorite_posts p{
+   color: #646373;
+   font-size: 20px;
+
+}

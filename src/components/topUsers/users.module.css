@@ -1,0 +1,58 @@
+.king_stats {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.king_stats span{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.king_stats span strong{
+    font-size: 22px;
+}
+
+.user_box_up img{
+    border-radius: 50%;
+    border: 3px solid #635BFF!important;
+}
+.user_box_tp {
+margin: 10px auto;
+}
+.user_box_tp span{
+    background-color: #FBD971;
+    padding: 6px 10px;
+    font-size: 11px;
+    color: white;
+    border-radius: 30px;
+}
+.user_box_name{
+color:#1d1d1f;
+font-size: 28px;
+font-weight: 400!important;
+}
+.user_boxx {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.user_box{
+ margin-top: -50px;
+}
+.user_bg {
+    background-image: url('../../../public/animal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    border-radius: 20px;
+}

@@ -1,0 +1,11 @@
+.detail_pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 0px;
+}
+
+.detail_pages h1{
+    margin-bottom:30px;
+}

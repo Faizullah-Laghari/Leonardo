@@ -1,0 +1,37 @@
+.main {
+width: 96%;
+text-align: center;
+margin:10px auto;
+padding: 20px;
+background-color: white;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+gap:30px;
+}
+
+.main svg {
+    width: 42px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #f6f7f9;
+    fill: #1d1d1f;
+    padding: 15px 15px;
+}
+
+.twitter,.instagram,.youtube{
+    width: 50px!important;
+}
+
+.pinterest {
+padding: 15px;
+border: 1px solid #f6f7f9;
+border-radius: 8px;
+}
+
+.svgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

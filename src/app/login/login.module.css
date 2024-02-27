@@ -1,0 +1,37 @@
+.login_page{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin: 100px auto;
+    position: relative;
+}
+
+.login{
+margin-top:0px!important ;
+padding: 40px;
+}
+
+.login button{
+width: 150px;
+font-size: 16px;
+}
+
+.register_button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 70px;
+    left: 21%;
+    color: #646373;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login_page p {
+    color: #293D39;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: 50px;
+}

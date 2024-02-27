@@ -1,0 +1,46 @@
+.input input{
+ padding: 15px;
+ border-radius: 10px;
+ width: 100%;
+ border: 2px solid #dee1e3;
+ margin: 10px auto;
+ font-size: 15px;
+ color: #667686;
+}
+
+.form button {
+    padding: 15px;
+    border: 2px solid #dee1e3;
+    display: block;
+    width: 100%;
+    border-radius:10px;
+    background-color: #635bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.form{
+display: flex;
+flex-direction: column;
+gap: 70px;
+justify-content: space-between;
+margin-top: 50px;
+}
+
+.registeration_button {
+width: 70%;
+margin: auto;
+text-align: center;
+}
+
+
+.remember_field {
+   margin: 5px auto;
+}
+
+.remember_field label{
+    color: #667d99;
+    padding-left: 5px;
+}

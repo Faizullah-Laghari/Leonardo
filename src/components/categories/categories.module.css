@@ -1,0 +1,24 @@
+.categories_section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* =================================    subcomponent css    ================================= */
+.category{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:10px 0px;
+    border-bottom: 1px solid #f5f5f7;
+}
+
+.category p{
+  font-size: 13px;
+  color: #646373;
+}
+
+.category:hover p{
+  font-size: 13px;
+  color: #635bff!important;
+}
