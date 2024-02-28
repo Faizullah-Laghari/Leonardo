@@ -1,6 +1,6 @@
 import HomeGallery from "@/components/gallery/gallery";
 import classes from "./reactions.module.css";
-export default function () {
+export default function Reactions() {
   return (
     <section className={classes.reaction_section}>
       <HomeGallery

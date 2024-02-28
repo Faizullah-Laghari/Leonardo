@@ -25,7 +25,7 @@ export default function SearchPopup() {
             A charming commercial shot featuring a cat litter box against a
             clean pastel backdrop, with the cat playfully exploring the
             surrounding space. The pastel backdrop enhances the cleanliness and
-            freshness associated with the litter box, while the cat's presence
+            freshness associated with the litter box, while the cats presence
             adds a sense of liveliness and joy. Photographed by Massimo Listri,
             using a digital medium format camera, the lighting is a mix of soft
             diffused light and gentle highlights, capturing the dynamic
@@ -34,7 +34,7 @@ export default function SearchPopup() {
         </div>
         <div className={classes.buttons}>
           <PrimaryButton>Copy Prompt</PrimaryButton>
-          <SecondaryButton>Open Dell-e</SecondaryButton>
+          <SecondaryButton>Open Delle</SecondaryButton>
         </div>
       </div>
     </section>

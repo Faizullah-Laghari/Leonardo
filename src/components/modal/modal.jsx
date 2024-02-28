@@ -8,7 +8,7 @@ const Modal = ({ isOpen, onClose, children }) => {
       <span onClick={onClose}>x</span>
         {children}
         <div className={classes.registeration_button}>
-        <Link className={classes.signin_button} href="/login"> <button onClick={onClose}>'Sign in</button></Link>
+        <Link className={classes.signin_button} href="/login"> <button onClick={onClose}>Sign in</button></Link>
         <Link href="/register"><button onClick={onClose}>Registeration</button></Link>
        </div>
       </div>

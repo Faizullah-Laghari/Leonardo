@@ -7,7 +7,7 @@ export default function Favorites () {
                 <Image src="/love.png" width={100} height={100} alt="Favourite Posts"></Image>
             </div>
             <p>
-            You haven't added any posts to favorites yet.
+            You have not added any posts to favorites yet.
             </p>
         </div>
     )
