@@ -6,7 +6,7 @@ import classes from "./header.module.css";
 import SecondaryButton from "@/UI/secondaryButton";
 import PrimaryButton from "@/UI/primaryButton";
 import SearchBar from "../home/hero-section/searchBar";
-import ThemeToggleButton from "../themeToggle/ThemeToggleButton";
+// import ThemeToggleButton from "../themeToggle/ThemeToggleButton";
 export default function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null); // Ref for the dropdown
@@ -55,7 +55,7 @@ export default function Header() {
             <li>
               <Link href="/submitai">Generate</Link>
             </li>
-            <ThemeToggleButton></ThemeToggleButton>
+            {/* <ThemeToggleButton></ThemeToggleButton> */}
           </ul>
         </nav>
         <div className={classes.searchButton} ref={dropdownRef}>
