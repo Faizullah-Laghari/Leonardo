@@ -1,5 +1,4 @@
-
-'use client'
+'use client';
 import React, { useState, useEffect } from 'react';
 import HomeGallery from '@/components/gallery/gallery';
 import classes from './categories.module.css';
@@ -25,21 +24,19 @@ export default function CategoryPage({ params }) {
     space: { img: '/saturn.png', color: '#522E6E' },
   };
 
-
   const defaultDetails = { img: '/defaulticon.png', color: '#FFFFFF' };
-
   const { img: categoryImageSrc, color: backgroundColor } = categoryDetails[categoryName] || defaultDetails;
 
   useEffect(() => {
-    document.body.style.backgroundColor = backgroundColor;
+    document.documentElement.style.setProperty('--dynamic-bg-color', backgroundColor);
     return () => {
-      document.body.style.backgroundColor = '';
+      document.documentElement.style.removeProperty('--dynamic-bg-color');
     };
   }, [backgroundColor]);
-
+  
   return (
     <div className={classes.Category_section}>
-      <div className={classes.head_title} style={{ backgroundColor }}>
+      <div className={classes.head_title}>
         <Image src={categoryImageSrc} alt={categoryName} width={100} height={100} />
         <h1>{categoryName.charAt(0).toUpperCase() + categoryName.slice(1)}</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum officiis eligendi molestiae veniam, dolor id!</p>
